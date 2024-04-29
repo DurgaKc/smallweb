@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Container for the logo, name, and photo */
+.container {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: hsl(0, 5%, 83%);
+}
+/* Logo on the left */
+.logo img{
+    flex: 1;
+    height: 12%;
+    width: 12%;
+    margin: 12px;
+}
+
+/* Name in the middle */
+.name {
+    flex:1;
+    text-align: center;
+}
+/* Photo on the right */
+.photo {
+    flex: 1;
+    text-align: right;
+}
+/* Style the photo */
+.photo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%; /* Rounded corners for circular photos */
+}
+.details{
+  
+    padding: 30px; 
+}
+input{
+     margin: 0.5%;
+     width: 30%;
+     height: 25px;
+}
+ input .sign{
+   
+    width: 20%;
+    height: 50px;
+}
+button{
+    height: 35px;
+    width: 10%;
+    border-radius: 10px;
+    background-color: lightblue;
+}

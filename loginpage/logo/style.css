@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+body{
+    background-color: rgb(249, 247, 247);
+    display: flex;
+    justify-content: center;
+    margin: 13px;
+}
+.container{
+    display: flex;
+    height: 90vh;
+    width: 150vh; 
+}
+.welcome{
+    width: 75vh;
+    height: 90vh;
+   
+    color: white;
+    background-color: rgb(232, 191, 197);
+}
+.top{
+    display: flex;
+}
+img{
+    height: 50px;
+}
+.logo{
+    margin: 16px;  
+}
+.title{
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.to{
+    text-align: center;
+    margin-top: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;   
+}
+.site{
+    margin-top: 47vh;
+    float: right;
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+    column-gap: 0.4rem;
+}
+.site::before,.site::after{
+    content: "";
+    height: 1px;
+}
+.signup{
+    width: 75vh;
+    
+    height: 90vh;
+    background-color: white;
+}
+.signup img{
+    float: right;
+    margin: 15px;
+}
+.signin{
+    margin: 60px;
+    margin-top: 70px;
+}
+input{
+    padding: 15px;
+    width: 95%;
+    height: 35px;
+    background-color: lightgray;
+    border: none;
+    outline: none;
+    border-radius: 18px;
+}
+.cont{
+    width: 95%;
+    height: 35px;
+    color: white;
+    background-color: rgb(207, 94, 94);
+    border: none;
+    border-radius: 18px;
+}
+.or{
+    text-align: center;
+    color: rgb(196, 190, 190);
+    font-size: 14px;
+}
+.btn{
+    width: 95%;
+    height: 35px;
+    border: none;
+    border-radius: 18px;
+    color: white;
+    background-color: rgb(128, 201, 232);
+    text-align: start;
+    padding: 0px 20px   
+}
+.icon .btn i{
+    margin:10px;
+}
+@media (max-width:400px){
+     .welcome{
+        display: none;
+     }
+     .container{
+        overflow-x:auto;
+        overflow-y: auto;
+     }
+     .signin{
+        justify-content: center;
+    
+     }
+     .form{
+        align-items: center;
+     }
+     img{
+        display: none;
+     }
+     .tt{
+        text-align: center;
+     }
+      .cont{
+        width: 95%;
+        font-size: 11px;
+          
+     }
+}

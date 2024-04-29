@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+      
+    /* background-repeat: no-repeat; 
+       */
+}
+body{
+    background-image: url('university.jpg');
+    background-size: cover;
+}
+.container{
+    overflow: hidden;
+}
+.registration{
+    margin:0 300px; 
+    background-color: rgb(96, 93, 93);
+    color: white;
+    opacity: 0.9;
+}
+hr{
+    border: 1.3px solid white;
+    margin-top: 12px;
+}
+.field{
+    margin: 12px;
+    justify-content: center;
+    
+    }
+ .row{
+         text-align: center;
+    }
+.name{
+    display: flex;
+}
+.fname{
+    width: 49%;
+}
+.lname{
+    width: 49%; 
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+  }
+img{
+    height: 8%;
+    width: 8%;
+   }
+input{
+    width: 98%;
+    height: 40px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+   padding-left: 10px;
+}
+.name input{
+    margin-top: 1px;
+}
+textarea{
+    width: 98%;
+    height: 40%px;
+}
+@media only screen and (max-width:620px) {
+    body{
+        background-image: none;
+    }
+}
